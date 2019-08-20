@@ -1,0 +1,13 @@
+test:
+  config: dev
+server:
+  port: 8764
+
+spring:
+  application:
+    name: config-client
+eureka:
+  client:
+    serviceUrl:
+      # ×¢²áÖÐÐÄµØÖ·
+      defaultZone: http://localhost:8761/eureka/
